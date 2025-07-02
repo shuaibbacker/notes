@@ -1,1 +1,49 @@
-hi how are u?
+What Is Git?
+Git is a free and open-source distributed version control system created by Linus Torvalds in 2005 . It allows developers to track changes in their code, collaborate with others, and manage project history efficiently. Unlike centralized systems, Git provides each developer with a full copy of the repository, enabling offline work and robust collaboration .
+
+
+Key Git Concepts
+Repository (repo): A storage space for your project, containing all files and their history.
+
+Commit: A snapshot of your project at a specific point in time.
+
+Branch: A parallel line of development, allowing you to work on features independently.
+
+Merge: Combining changes from different branches.
+
+Clone: Copying an existing repository to your local machine.
+
+Pull: Fetching and integrating changes from a remote repository.
+
+Push: Sending your local commits to a remote repository.
+
+🛠️ Basic Git Commands
+bash
+Copy
+Edit
+# Initialize a new Git repository
+git init
+
+# Clone an existing repository
+git clone <repository_url>
+
+# Check the status of your files
+git status
+
+# Stage changes for commit
+git add <file_name>
+
+# Commit staged changes with a message
+git commit -m "Your commit message"
+
+# Push commits to the remote repository
+git push origin <branch_name>
+
+# Pull updates from the remote repository
+git pull origin <branch_name>
+
+# Create and switch to a new branch
+git checkout -b <new_branch_name>
+
+# Merge a branch into the current branch
+git merge <branch_name>
